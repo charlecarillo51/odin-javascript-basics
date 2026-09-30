@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors | Odin Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Rock Paper Scissors</h1>
+    <p class="subtitle">Choose your move and play against the computer.</p>
+
+    <section class="scoreboard" aria-label="Scoreboard">
+      <div><span>You</span><strong id="human-score">0</strong></div>
+      <div><span>Computer</span><strong id="computer-score">0</strong></div>
+    </section>
+
+    <p id="status" class="status">First to 5 wins!</p>
+
+    <div class="choices">
+      <button class="choice" data-choice="rock">✊<span>Rock</span></button>
+      <button class="choice" data-choice="paper">✋<span>Paper</span></button>
+      <button class="choice" data-choice="scissors">✌️<span>Scissors</span></button>
+    </div>
+
+    <div class="round">
+      <p>You chose: <strong id="human-choice">—</strong></p>
+      <p>Computer chose: <strong id="computer-choice">—</strong></p>
+    </div>
+
+    <button id="reset" class="reset">Reset Game</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
