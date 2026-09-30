@@ -15,8 +15,5 @@ Open each project's `index.html` in a browser:
 - `etch-a-sketch/index.html`
 - `calculator/index.html`
 
-## Submission
-This folder can be uploaded to GitHub as one repository or the three project folders can be placed into a Google Drive folder.
-
 ## Notes
 The projects are implemented without external libraries. The Calculator intentionally does not use `eval()` or `new Function()`.
